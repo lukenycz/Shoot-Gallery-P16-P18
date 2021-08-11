@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		10676D2526C3FE5500DC53DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10676D2426C3FE5500DC53DC /* AppDelegate.swift */; };
 		10676D2726C3FE5600DC53DC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 10676D2626C3FE5600DC53DC /* GameScene.sks */; };
-		10676D2926C3FE5600DC53DC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 10676D2826C3FE5600DC53DC /* Actions.sks */; };
 		10676D2B26C3FE5600DC53DC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10676D2A26C3FE5600DC53DC /* GameScene.swift */; };
 		10676D2D26C3FE5600DC53DC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10676D2C26C3FE5600DC53DC /* GameViewController.swift */; };
 		10676D3026C3FE5600DC53DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10676D2E26C3FE5600DC53DC /* Main.storyboard */; };
 		10676D3226C3FE5800DC53DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10676D3126C3FE5800DC53DC /* Assets.xcassets */; };
+		10676D4126C41C8C00DC53DC /* starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 10676D4026C41C8C00DC53DC /* starfield.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		10676D2126C3FE5500DC53DC /* Shoot-Gallery-P16-P18.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shoot-Gallery-P16-P18.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10676D2426C3FE5500DC53DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10676D2626C3FE5600DC53DC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		10676D2826C3FE5600DC53DC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		10676D2A26C3FE5600DC53DC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		10676D2C26C3FE5600DC53DC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		10676D2F26C3FE5600DC53DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10676D3126C3FE5800DC53DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10676D3326C3FE5800DC53DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10676D4026C41C8C00DC53DC /* starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = starfield.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 			children = (
 				10676D2426C3FE5500DC53DC /* AppDelegate.swift */,
 				10676D2626C3FE5600DC53DC /* GameScene.sks */,
-				10676D2826C3FE5600DC53DC /* Actions.sks */,
 				10676D2A26C3FE5600DC53DC /* GameScene.swift */,
 				10676D2C26C3FE5600DC53DC /* GameViewController.swift */,
 				10676D2E26C3FE5600DC53DC /* Main.storyboard */,
 				10676D3126C3FE5800DC53DC /* Assets.xcassets */,
 				10676D3326C3FE5800DC53DC /* Info.plist */,
+				10676D4026C41C8C00DC53DC /* starfield.sks */,
 			);
 			path = "Shoot-Gallery-P16-P18";
 			sourceTree = "<group>";
@@ -129,8 +129,8 @@
 			files = (
 				10676D3026C3FE5600DC53DC /* Main.storyboard in Resources */,
 				10676D2726C3FE5600DC53DC /* GameScene.sks in Resources */,
+				10676D4126C41C8C00DC53DC /* starfield.sks in Resources */,
 				10676D3226C3FE5800DC53DC /* Assets.xcassets in Resources */,
-				10676D2926C3FE5600DC53DC /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +292,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "LN.Shoot-Gallery-P16-P18";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -311,7 +311,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "LN.Shoot-Gallery-P16-P18";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
